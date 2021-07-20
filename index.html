@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Innolabs</title>
+  </head>
+  <script>
+    function setNewImage() {
+      document.getElementById("img1").src =
+        "https://innolabz.in/static/img/ps_ho.png";
+    }
+    function setoldimage(){
+        document.getElementById('img1').src="https://inno-labz.com/upload/program/power2startup-logo.png";
+    }
+    function setsecondImage() {
+      document.getElementById("img2").src =
+        "https://innolabz.in/static/img/ps_ho.png";
+    }
+    function setold2image(){
+        document.getElementById('img2').src="https://inno-labz.com/upload/program/power2startup-logo.png";
+    }
+    function setthirdImage() {
+      document.getElementById("img3").src =
+        "https://innolabz.in/static/img/ps_ho.png";
+    }
+    function setold3image(){
+        document.getElementById('img3').src="https://inno-labz.com/upload/program/power2startup-logo.png";
+    }
+ 
+  </script>
+  <body>
+    <div id="headingimage">
+      <img
+        src="https://inno-labz.com/upload/program/power2startup-logo.png"
+        alt=""
+        width="220"
+        height="50"
+      />
+    </div>
+
+    <div id="boxes" >
+      <div id="leftbox" onmouseover="setNewImage()"
+      onmouseout="setoldimage()">
+        <h2 class="headinghover">
+          <img id="img1" src="https://inno-labz.com/upload/program/power2startup-logo.png"
+            alt=""
+            width="220"
+            height="50"
+          />
+        </h2>
+        <div class="content">
+          It is a good platform to learn programming. It is an educational
+          website. Prepare for the Recruitment drive of product based companies
+          like Microsoft, Amazon, Adobe etc with a free online placement
+          preparation course.
+        </div>
+      </div>
+
+      <div id="middlebox" onmouseover="setsecondImage()"
+      onmouseout="setold2image()">
+        <h2 class="headinghover">
+          <img id="img2"
+            src="https://inno-labz.com/upload/program/power2startup-logo.png"
+            alt=""
+            width="220"
+            height="50"
+          />
+        </h2>
+        <div class="content">
+          The course focuses on various MCQ's & Coding question likely to be
+          asked in the interviews & make your upcoming placement season
+          efficient and successful.
+        </div>
+      </div>
+
+      <div id="rightbox" onmouseover="setthirdImage()"
+      onmouseout="setold3image()">
+        <h2 class="headinghover">
+          <img id="img3"
+            src="https://inno-labz.com/upload/program/power2startup-logo.png"
+            alt=""
+            width="220"
+            height="50"
+          />
+        </h2>
+        <div class="content">
+          Any geeks can help other geeks by writing articles on the
+          GeeksforGeeks, publishing articles follow few steps that are Articles
+          that need little modification/improvement from reviewers are published
+          first.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
